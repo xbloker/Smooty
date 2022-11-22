@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Blueish #1A73E9
+        Dark #1366D3
+        Accent #6E3AFF
+    -->
+
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#ff450e</color>
+
+    <color name="darkColorPrimary">#222222</color>
+    <color name="darkColorPrimaryDark">#222222</color>
+    <color name="darkColorAccent">#ff450e</color>
+
+    <!-- Shortcut Icon -->
+    <color name="shortcutIconForeground">#FFF</color>
+    <color name="shortcutIconBackground">#ff450e</color>
+
+    <!-- Navigation Bar
+    * Must be solid color, no alpha -->
+    <color name="navigationBar">#1A73E9</color>
+    <color name="navigationBarDark">#222222</color>
+
+    <!-- Splash Screen -->
+    <color name="splashColor">#2e2e2e</color>
+
+    <!-- Navigation View -->
+    <color name="navigationViewHeaderBackground">#00000000</color>
+    <color name="navigationViewHeaderBackgroundDark">#00000000</color>
+    <color name="navigationViewTitle">#ff450e</color>
+    <color name="navigationViewTitleBack">#33000000</color>
+
+    <color name="navigationViewText">#484848</color>
+    <color name="navigationViewTextDark">#FFFFFF</color>
+    <color name="navigationViewTextSelected">#FFFFFF</color>
+    <color name="navigationViewTextSelectedDark">#FFFFFF</color>
+    <color name="navigationViewSelectedBackground">#ff450e</color>
+    <color name="navigationViewSelectedBackgroundDark">#ff450e</color>
+    <color name="navigationViewRippleColor">#25000000</color>
+
+    <!-- Swipe Refresh -->
+    <color name="swipeRefresh">#ff450e</color>
+
+    <!-- Toolbar -->
+    <color name="toolbarIcon">#616161</color>
+    <color name="toolbarIconDark">#FFFFFFFF</color>
+
+    <!-- Tab -->
+    <color name="tabIndicator">#757575</color>
+    <color name="tabIndicatorDark">#BDBDBD</color>
+    <color name="tabText">#BDBDBD</color>
+    <color name="tabTextDark">#616161</color>
+    <color name="tabTextSelected">#757575</color>
+    <color name="tabTextSelectedDark">#BDBDBD</color>
+
+    <!-- Card -->
+    <color name="cardBackground">#FFFFFF</color>
+    <color name="cardBackgroundDark">#2C2C2C</color>
+    <color name="cardStroke">#11000000</color>
+    <color name="cardStrokeDark">#11000000</color>
+
+    <!-- Ripple -->
+    <color name="rippleColor">#FFFFFF</color>
+    <color name="rippleColorDark">#FFFFFF</color>
+    <color name="rippleAccent">#ff450e</color>
+    <color name="rippleAccentDark">#ff450e</color>
+
+    <!-- Attributes -->
+    <color name="mainBackground">#FFFFFF</color>
+    <color name="mainBackgroundDark">#222222</color>
+    <color name="primaryText">#484848</color>
+    <color name="primaryTextDark">#FFFFFF</color>
+    <color name="secondaryText">#777777</color>
+    <color name="secondaryTextDark">#ABABAB</color>
+
+    <color name="dividerList">#FFFFFF</color>
+    <color name="dividerListDark">#2C2C2C</color>
+
+    <!-- Wallpaper Preview -->
+    <color name="wallpaperStatusBar">#66000000</color>
+    <color name="wallpaperToolbar">#66000000</color>
+
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <!-- ======================================================================================= -->
+    <!-- ============================== DASHBOARD CONFIGURATIONS =============================== -->
+    <!-- ======================================================================================= -->
+
+    <!-- CONFIG: DEFAULT THEME -->
+    <string name="default_theme">auto</string>
+
+    <!-- CONFIG: MUZEI -->
+    <string name="muzei_art_source_name">Smooty</string>
+    <string name="muzei_art_source_desc">Pleasing wallpapers from Smooty</string>
+    <color name="muzei_color">#0082B4</color>
+
+    <!-- CONFIG: KUSTOM -->
+    <!-- Kustom Pack title. Defaults to the app's name -->
+    <string name="kustom_pack_title">@string/app_name</string>
+
+    <!-- Description that would be shown in Kustom apps -->
+    <string name="kustom_pack_description">Cool Kustom presets</string>
+
+
+
+    <!-- CONFIG: HOME -->
+    <string name="home_title">Smooty</string>
+    <string name="home_image">home_image</string>
+    <string name="home_image_style">card_landscape</string>
+    <string name="rate_and_review_link">https://play.google.com/store/apps/details?id=ru.xdi.iconpack</string>
+    <string name="share_link">https://play.google.com/store/apps/details?id=ru.xdi.iconpack</string>
+    <string name="home_description"><![CDATA[Constantly replenishing Icon Pack and working on most well-known launchers, so that it would be easier for you to co-ordinate, we added a tab for new icons, as well as for alternative]]></string>
+    <bool name="enable_check_update">false</bool>
+    <string name="google_play_dev"></string>
+    <bool name="use_flat_card">true</bool>
+
+    <!-- CONFIG: NAVIGATION VIEW HEADER -->
+    <string name="navigation_view_header">nav_head</string>
+    <string name="navigation_view_header_title">Smooty</string>
+    <bool name="enable_apply">true</bool>
+
+    <!-- CONFIG: ICONS -->
+    <bool name="enable_icons_sort">true</bool>
+    <bool name="show_icon_name">false</bool>
+    <!-- Enable if your icon pack includes adaptive icons.
+            When enabled, the dashboard shows an Icon Shape changer button -->
+    <bool name="includes_adaptive_icons">false</bool>
+    <string name="bookmark_icons_empty">No bookmarks found. Bookmark icons to quickly access them here.</string>
+    <!-- CONFIG: ICON REQUEST -->
+    <bool name="enable_icon_request">true</bool>
+    <bool name="enable_icon_request_limit">true</bool>
+    <integer name="icon_request_limit">20</integer>
+    <bool name="reset_icon_request_limit">false</bool>
+    <bool name="json_check_before_request">false</bool>
+    <bool name="enable_premium_request">true</bool>
+    <bool name="enable_non_mail_app_request">true</bool>
+    <!-- Hide missing app count -->
+    <bool name="hide_missing_app_count">false</bool>
+    <string name="regular_request_method">email</string>
+    <string name="premium_request_method">email</string>
+    <string name="regular_request_email">SmootyDevDes@gmail.com</string>
+    <string name="premium_request_email">kizelpty@gmail.com</string>
+    <string name="regular_request_email_subject">SmootyDevDes@gmail.com</string>
+    <string name="premium_request_email_subject">kizelpty@gmail.com</string>
+
+    <!-- API keys for Pacific Manager.
+        You can leave "premium_request_pacific_api_key" empty to use the regular request's pacific api key to send premium icon requests. -->
+    <string name="regular_request_pacific_api_key"></string>
+    <string name="premium_request_pacific_api_key"></string>
+
+    <!-- CONFIG: CLOUD WALLPAPERS -->
+    <string name="wallpaper_json">https://raw.githubusercontent.com/sarsamurmu/MinMax/json/wallpaper.json</string>
+    <bool name="enable_wallpaper_download">true</bool>
+    <bool name="wallpaper_show_name_author">true</bool>
+    <string name="wallpaper_grid_preview_style">square</string>
+
+    <!-- CONFIG: ABOUT -->
+    <string name="about_image"></string>
+    <string name="about_desc"><![CDATA[Good guys are working on this project. We are only 2 and these are the first steps that we are taking. If you have a question or request, we will listen to you and even write down the icon. Thanks to you, we are getting better ;] ]]></string>
+    <string name="about_profile_image">about_image_alt</string>
+    <string name="about_title">Smooty \nIconPack</string>
+    <string-array name="about_social_links">
+        <item>https://t.me/ClaudiaKincade</item>
+        <item>https://t.me/ivan_rych</item>
+        <item>SmootyDevDes@gmail.com</item>
+    </string-array>
+    <bool name="show_contributors_dialog">true</bool>
+    <string name="privacy_policy_link">https://pages.flycricket.io/smooty/privacy.html</string>
+    <string name="terms_and_conditions_link">https://pages.flycricket.io/smooty/terms.html</string>
+
+    <!-- CONFIG: DONATE -->
+    <bool name="enable_donation">true</bool>
+
+    <!-- CONFIG: MISC -->
+    <bool name="playstore_check_enabled">false</bool>
+    <string name="config_json">https://zixpo.github.io/candybar-sources/candybar_config_alt.json</string>
+    <bool name="show_intro">true</bool>
+</resources>
